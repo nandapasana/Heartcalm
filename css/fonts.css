@@ -1,0 +1,18 @@
+/* Tipografi global dan keluarga font */
+:root {
+  --font-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", sans-serif;
+  --font-body: "Figtree", "Segoe UI", system-ui, sans-serif;
+  --font-logo: "Marcellus", "Cormorant Garamond", Georgia, serif;
+}
+
+body {
+  font: 400 1rem/1.65 var(--font-body);
+}
+
+h1, h2, h3, .foot h3, .tick {
+  font-family: var(--font-display);
+}
+
+.logo, .foot .brand {
+  font-family: var(--font-logo);
+}
